@@ -1,0 +1,3 @@
+# DIGITAL SYSTEM AND MICROPROCESSOR (MCTE 2332)
+
+This repo contains ATMEL STUDIO 7 project files.
