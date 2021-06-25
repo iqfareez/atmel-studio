@@ -22,6 +22,9 @@
   <FILE>AssemblerApplication1.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <start><FILE>D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>10</LINE></start>
+  <cond1><FILE>D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>15</LINE></cond1>
+  <cond2><FILE>D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>18</LINE></cond2>
+  <cond3><FILE>D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>21</LINE></cond3>
+  <end><FILE>D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>25</LINE></end>
  </LABELS>
 </ASSEMBLER_INFO>

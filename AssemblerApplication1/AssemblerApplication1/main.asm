@@ -1,13 +1,25 @@
-;
-; AssemblerApplication1.asm
-;
-; Created: 26/4/2021 11:21:39 AM
-; Author : Iqmal
-;
+LDI R16, 10
+LDI R17, 5
+LDI R18, 0
 
+LDI R20, 2 ; r20 is A
 
-; Replace with your application code
-start:
-    inc r16
-	inc r22
-    rjmp start
+CP R16, R20
+BRCS cond1
+CP R17, R20
+BRCS cond2
+CP R18, R20
+BRCS cond3
+RJMP end
+
+cond1: 
+	LDI R20, 2 ; set X = 2
+	RJMP end
+cond2:
+	LDI R20, 1
+	RJMP end
+cond3:
+	LDI R20, 0
+	RJMP end
+
+end: RJMP end

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm Wed Apr 28 15:01:57 2021
+AVRASM ver. 2.2.8  D:\Iqmal\Documents\Atmel Studio\7.0\AssemblerApplication1\AssemblerApplication1\main.asm Thu Jun 24 17:12:59 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,4 +695,7 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-CSEG start        00000000
+CSEG cond1        0000000b
+CSEG cond2        0000000d
+CSEG cond3        0000000f
+CSEG end          00000011
